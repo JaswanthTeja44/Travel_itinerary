@@ -1,0 +1,91 @@
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('map.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background: url('TRAVEL.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 8rem auto 2rem;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #f6c90e;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e1b70d;
+    }
+
+    .itinerary {
+      margin-top: 2rem;
+    }
+
+    .day-plan {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background-color: rgba(244, 244, 249, 0.9);
+      border-left: 5px solid #43658b;
+      border-radius: 5px;
+    }
+
+    .fade-in {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
